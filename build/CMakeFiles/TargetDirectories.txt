@@ -1,0 +1,9 @@
+D:/Visual_studio/Section new/build/CMakeFiles/Experimental.dir
+D:/Visual_studio/Section new/build/CMakeFiles/Nightly.dir
+D:/Visual_studio/Section new/build/CMakeFiles/Continuous.dir
+D:/Visual_studio/Section new/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/Visual_studio/Section new/build/CMakeFiles/Themoderncppchallenge.dir
+D:/Visual_studio/Section new/build/CMakeFiles/PACKAGE.dir
+D:/Visual_studio/Section new/build/CMakeFiles/RUN_TESTS.dir
+D:/Visual_studio/Section new/build/CMakeFiles/ALL_BUILD.dir
+D:/Visual_studio/Section new/build/CMakeFiles/ZERO_CHECK.dir
