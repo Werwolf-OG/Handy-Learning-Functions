@@ -1,1 +1,1 @@
-# Section-new
+# Lerning coding: with small functions
