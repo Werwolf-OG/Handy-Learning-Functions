@@ -1,4 +1,5 @@
 #include "Ipv4Address.h"
+#include <array>
 
 IPv4Address::IPv4Address()
 {
@@ -26,7 +27,7 @@ std::istream &operator>>(std::istream &is, IPv4Address &ipAddress)
     ipAddress.segments[1] = b;
     ipAddress.segments[2] = c;
     ipAddress.segments[3] = d;
-
+    
     return is;
 }
 
@@ -38,4 +39,14 @@ std::ostream &operator<<(std::ostream &os, IPv4Address &ipAddress)
        << static_cast<int>(ipAddress.segments[3]) << std::endl;
 
     return os;
+}
+
+unsigned int IPv4Address::AsNumber()
+{
+    return *(reinterpret_cast<unsigned int*>(segments));
+}
+
+std::array<unsigned char, 4> IPv4Address::GetSegments()
+{
+    return std::to_array(segments);
 }

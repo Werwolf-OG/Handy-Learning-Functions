@@ -13,7 +13,9 @@ public:
     friend std::istream& operator>>(std::istream& is, IPv4Address& ipAddress);
     friend std::ostream& operator<<(std::ostream& os, IPv4Address& ipAddress);
 
-    
+    unsigned int AsNumber();
+
+    std::array<unsigned char, 4> GetSegments();
 
 
 };

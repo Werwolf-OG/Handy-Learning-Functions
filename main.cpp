@@ -3,8 +3,9 @@
 #include "PrintLargestPrime.h"
 #include "ValidatesISBNs-10digit.h"
 #include "IPv4Address.h"
+#include "IPv4Address_HelperFunctions.h"
 
- void ReadWriteIPv4Address();
+
 
 int main() {
 
@@ -37,14 +38,4 @@ int main() {
     }
  
     return 0;
-}
-
-void ReadWriteIPv4Address()
-{
-    IPv4Address IP;
-    
-    std::cout << "Type in your IPv4 address" << std::endl;
-    std::cin >> IP;
-
-    std::cout << IP << std::endl;
 }

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 
 int PrintLargestPrime()
 {
@@ -24,7 +25,7 @@ int PrintLargestPrime()
         {
             if (i % j == 0) 
                 break;
-            else if (j+1 > sqrt(i)) {
+            else if (j+1 > std::sqrt(i)) {
                 std::cout << i << " ";
                 Max_Value.push_back(i);
                 
